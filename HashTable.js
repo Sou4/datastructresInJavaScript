@@ -83,7 +83,6 @@ class HashTable {
     if (!this.array[hashedKey]) return;
 
     let list = this.array[hashedKey];
-    console.log(list);
     return list.get(key);
   }
 
